@@ -1,0 +1,32 @@
+<html>
+<head>
+  <title>FAULT</title>
+
+  <script language="javascript" type="text/javascript" src="libraries/toxiclibs.js"></script> <!--"Open-Source Library for Computational Design"-->
+  <script language="javascript" type="text/javascript" src="libraries/toxichelper.js"></script><!--Library created by Daniel Shiffman for The-Nature-of-Code-Examples-p5.js --><!-- -->
+  <script language="javascript" type="text/javascript" src="libraries/p5.js"></script><!-- "JS client-side library for creating graphic and interactive experiences, based on the core principles of Processing."-->
+  <script language="javascript" type="text/javascript" src="libraries/p5.dom.js"></script><!--"p5.dom makes it easy to interact with other HTML5 objects, including text, hyperlink, image, input, video, audio, and webcam."-->
+  <script language="javascript" type="text/javascript" src="libraries/p5.sound.js"></script><!--"extends p5 with Web Audio functionality including audio input, playback, analysis and synthesis."-->
+  <script language="javascript" type="text/javascript" src="node.js"></script>
+  <script language="javascript" type="text/javascript" src="cluster.js"></script>
+  <script language="javascript" type="text/javascript" src="sketch.js"></script>
+    
+    <link href='https://fonts.googleapis.com/css?family=Gruppo' rel='stylesheet'>
+
+</head>
+<body>
+    
+<div style="color:white; background-color: black; position: absolute; left: 10px; top: 10px; padding: 7px; line-height:1px;font-family:Gruppo"><!--used padding style to make the div text box more aesthetically pleasing-->
+    <p>Press [SPACE] to play "FAULT - EP"</p><br>
+    <p>Press [1] : FAULT</p>
+    <p>Press [2] : ENSO</p>
+    <p>Press [3] : B-SIDE</p>
+</div>  
+                   
+<canvas style="opacity:0.5;position: absolute; left: 0px;top: 0px; z-index: 0;"></canvas> <!-- "position: absolute; left: 0px;top: 0px;" so that the frame will fit perfectly within the browser window" -->
+<div id="sketch-holder" style="position: absolute; left: 0px; top: 0px; z-index: -1;"></div> <!--z-index: -1 so that it will appear behind the floating orbs-->
+        
+<script src="floatingOrbs.js"></script>
+    
+</body>
+</html>
