@@ -1,16 +1,17 @@
-// Fault: Audio visualisation procedurally generated from audio analysis data
-// Max Adams
-// http://
-// 24.04.2018
-// Heavily based on:
-// 1) 17.1: Loading and Playing - p5.js Sound Tutorial(https://www.youtube.com/watch?v=Pn1g1wjxl_0)
-// 2) 17.2: Play and Pause Button - p5.js Sound Tutorial (https://www.youtube.com/watch?v=YcezEwOXun4)
-// 3) 17.3: Timing, Jumps and Cues - p5.js Sound Tutorial (https://www.youtube.com/watch?v=SfA5CghXw18)
-// 4) 17.4: Amplitude Analysis - p5.js Sound Tutorial (https://www.youtube.com/watch?v=NCCHQwNAN6Y)
-// 5) 17.11: Sound Visualization: Frequency Analysis with FFT - p5.js Sound Tutorial (https://www.youtube.com/watch?v=2O3nm0Nvbi4&t=2s)
-// 6) The-Nature-of-Code-Examples/chp05_physicslibraries/toxiclibs/NOC_5_12_SimpleCluster/NOC_5_12_SimpleCluster.pde (https://github.com/shiffman/The-Nature-of-Code-Examples/blob/ed1c9065cd5fad194e4f25fbb0c034d59756137e/chp05_physicslibraries/toxiclibs/NOC_5_12_SimpleCluster/NOC_5_12_SimpleCluster.pde)
+/* Fault: Audio visualisation procedurally generated from audio analysis data
+Developed By Max Adams (15011147)
+Available From URL: https://github.com/maxadams97/FAULT.git
+Uploaded April 2018
 
-//Description: This is the main canvas sketch which controlls the visual narrative of this web-based visualiser. It also provides the user with controll by enablingh keyboard shortcuts. As this project consists of an amalgamation of code snippets i have used from differnt sources, I will be highlighting where this *referenced code can still be seen.
+Heavily based on:
+1) 17.1: Loading and Playing - p5.js Sound Tutorial(https://www.youtube.com/watch?v=Pn1g1wjxl_0)
+2) 17.2: Play and Pause Button - p5.js Sound Tutorial (https://www.youtube.com/watch?v=YcezEwOXun4)
+3) 17.3: Timing, Jumps and Cues - p5.js Sound Tutorial (https://www.youtube.com/watch?v=SfA5CghXw18)
+4) 17.4: Amplitude Analysis - p5.js Sound Tutorial (https://www.youtube.com/watch?v=NCCHQwNAN6Y)
+5) 17.11: Sound Visualization: Frequency Analysis with FFT - p5.js Sound Tutorial (https://www.youtube.com/watch?v=2O3nm0Nvbi4&t=2s)
+6) The-Nature-of-Code-Examples/chp05_physicslibraries/toxiclibs/NOC_5_12_SimpleCluster/NOC_5_12_SimpleCluster.pde (https://github.com/shiffman/The-Nature-of-Code-Examples/blob/ed1c9065cd5fad194e4f25fbb0c034d59756137e/chp05_physicslibraries/toxiclibs/NOC_5_12_SimpleCluster/NOC_5_12_SimpleCluster.pde)
+
+Description: This is the main canvas sketch which controlls the visual narrative of this web-based visualiser. It also provides the user with controll by enablingh keyboard shortcuts. As this project consists of an amalgamation of code snippets i have used from differnt sources, I will be highlighting where this *referenced code can still be seen.*/
 
 
 var physics;// Reference to physics world

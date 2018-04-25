@@ -1,12 +1,13 @@
-// Fault: Audio visualisation procedurally generated from audio analysis data
-// Max Adams
-// http://
-// 24.04.2018
-// Heavily based on: 
-// 1) Animating the Canvas | HTML5 Canvas Tutorial for Beginners - Ep. 3 (https://www.youtube.com/watch?v=yq2au9EfeRQ)
-// 2) Interacting with The Canvas | HTML5 Canvas Tutorial for Beginners - Ep. 4 (https://www.youtube.com/watch?v=vxljFhP2krI&t=584s)
+/* Fault: Audio visualisation procedurally generated from audio analysis data
+Developed By Max Adams (15011147)
+Available From URL: https://github.com/maxadams97/FAULT.git
+Uploaded April 2018
 
-//Description: This JS file generates circles which float about and bounce wihtin the browser window walls. This sketch was developed primarily from  following the 'Chris Courses' youtube tutorial sereis about how to develop for canvas.
+Heavily based on: 
+1) Animating the Canvas | HTML5 Canvas Tutorial for Beginners - Ep. 3 (https://www.youtube.com/watch?v=yq2au9EfeRQ)
+2) Interacting with The Canvas | HTML5 Canvas Tutorial for Beginners - Ep. 4 (https://www.youtube.com/watch?v=vxljFhP2krI&t=584s)
+
+Description: This JS file generates circles which float about and bounce wihtin the browser window walls. This sketch was developed primarily from  following the 'Chris Courses' youtube tutorial sereis about how to develop for canvas.*/
 
 var canvas = document.querySelector('canvas');// finds the HTML tag elemnt of canvas
 canvas.width = window.innerWidth;// Sets the canvas dimentions to dynamically fit the browser window size
